@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1010292CEC4D340009AAAC /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6A1010282CEC4D340009AAAC /* Documentation.docc */; };
 		6A48946D2C607F1A00CD5C1F /* WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A48946C2C607F1A00CD5C1F /* WeatherAppApp.swift */; };
 		6A48946F2C607F1A00CD5C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A48946E2C607F1A00CD5C1F /* ContentView.swift */; };
 		6A4894712C607F1D00CD5C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4894702C607F1D00CD5C1F /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A1010282CEC4D340009AAAC /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		6A4894692C607F1A00CD5C1F /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A48946C2C607F1A00CD5C1F /* WeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppApp.swift; sourceTree = "<group>"; };
 		6A48946E2C607F1A00CD5C1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A10102A2CEC4D5E0009AAAC /* Screenshots pc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Screenshots pc";
+			sourceTree = "<group>";
+		};
 		6A4894602C607F1A00CD5C1F = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +60,12 @@
 		6A48946B2C607F1A00CD5C1F /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				6A10102A2CEC4D5E0009AAAC /* Screenshots pc */,
 				6A48946C2C607F1A00CD5C1F /* WeatherAppApp.swift */,
 				6A48946E2C607F1A00CD5C1F /* ContentView.swift */,
 				6A4894702C607F1D00CD5C1F /* Assets.xcassets */,
 				6A4894722C607F1D00CD5C1F /* Preview Content */,
+				6A1010282CEC4D340009AAAC /* Documentation.docc */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A48946F2C607F1A00CD5C1F /* ContentView.swift in Sources */,
+				6A1010292CEC4D340009AAAC /* Documentation.docc in Sources */,
 				6A48946D2C607F1A00CD5C1F /* WeatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
